@@ -146,3 +146,20 @@ bimestre-3/
 ---
 
 > **Meta do bimestre:** seu mini-framework será a base do **projeto final**. Quanto mais bem feito hoje, mais rápido será montar e publicar seu site responsivo.
+
+
+### Tipos mais comuns de commit
+
+| Tipo         | Significado                                                              | Exemplo                                             |
+| ------------ | ------------------------------------------------------------------------ | --------------------------------------------------- |
+| **feat**     | Nova funcionalidade                                                      | `feat(css): adiciona utilitário de margem`          |
+| **fix**      | Correção de erro ou bug                                                  | `fix(html): corrige fechamento da tag header`       |
+| **add**      | Adição simples de arquivo, imagem, fonte, etc                            | `add(img): adiciona logotipo do site`               |
+| **style**    | Alteração de estilo, espaçamento, formatação (sem alterar comportamento) | `style(css): ajusta cor e espaçamento dos botões`   |
+| **refactor** | Reescrita ou melhoria de código existente (sem mudar resultado final)    | `refactor(css): reorganiza classes utilitárias`     |
+| **docs**     | Atualização de documentação, README, comentários                         | `docs: adiciona explicação das classes no README`   |
+| **test**     | Criação ou ajuste de testes                                              | `test(js): adiciona teste para função de validação` |
+| **chore**    | Mudanças gerais no projeto (estrutura, limpeza de arquivos)              | `chore: remove arquivos temporários`                |
+| **build**    | Ajustes que afetam a compilação ou dependências                          | `build: atualiza versão do Tailwind`                |
+| **perf**     | Melhorias de desempenho                                                  | `perf(css): otimiza uso de media queries`           |
+| **ci**       | Ajustes no processo de integração contínua (GitHub Actions etc.)         | `ci: configura verificação automática de commits`   |
