@@ -91,9 +91,11 @@ h2 {
 }
 
 .continue {
-  color: #EB5151;
-  text-decoration: none;
-  font-weight: 600;
+  color: #273644;
+  text-decoration: underline;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 16px;
 }
 
 .continue:hover {
@@ -119,21 +121,24 @@ hr {
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 10px;
+  justify-content: space-evenly;
 }
 
 .tags span {
   display: inline-block;
-  border: 1px solid #f3caca;
-  color: #c8102e;
+  border: 1px solid #EB5151;
+  color: #EB5151;
   padding: 5px 10px;
   border-radius: 3px;
-  font-size: 0.85em;
+  font-size: 16px;
 }
 
 .see-all {
   color: #888;
   font-size: 0.85em;
-  text-decoration: none;
+  display: flex;
+  text-decoration: underline;
+  justify-content: end;
 }
 
 .see-all:hover {
@@ -146,12 +151,16 @@ hr {
 }
 
 .galeria h3 {
-  color: #273644;
-  font-weight: 600;
-  font-size: 1.2em;
+  color: #EB5151;
+  display: flex;
+  font-weight: 700;
+  font-size: 26px;
   margin-bottom: 15px;
 }
-
+.galeria h3 .right{
+  display: flex;
+  justify-content: flex-end;
+}
 .grid-midia {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
